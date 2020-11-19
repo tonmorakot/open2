@@ -1,0 +1,23 @@
+{
+  "name": "open2drawer/1.0.0",
+  "description": "Open Cash Drawer",
+  "keywords": [
+    "open cash drawer"
+  ],
+  "homepage": "http://github.com/tonmorakot/open2",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Morakot Thongprom",
+      "email": "tonmorakot@gmail.com",
+      "homepage": "https://www.aimaccount.com/"
+    }
+  ],
+  "require": {
+    "mike42/escpos-php": "^3.0"
+  },
+  "scripts": {
+    "start": "php -S localhost:8889 -t src",
+    "test": "phpunit"
+  }
+}
